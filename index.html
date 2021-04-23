@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <i>px should only be used when the screen size is known.</i>
+            <div class="box box1">
+                px
+            </div>
+        </section>
+        <section>
+            <i>em is the font size of the element * 1</i>
+            <div class="box box2">
+                em
+            </div>
+        </section>
+        <section>
+            <i>rem is the font size of the ":root" element * 1</i>
+            <div class="box box3">
+                rem
+            </div>
+        </section>
+        <section>
+            <i>% is relative to the parent element</i>
+            <div class="box5-parent">
+                <div class="box box5">
+                    50%
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="box box4">
+        vw, vh
+    </div>
+    <div class="container">
+        <section>
+            <i>Padding with px</i>
+            <div class="box box6">
+                <div class="box-child">
+                    8px
+                </div>
+            </div>
+        </section>
+        <section>
+            <i>Padding with em</i>
+            <div class="box box7">
+                <div class="box-child">
+                    1em
+                </div>
+            </div>
+        </section>
+        <section>
+            <i>Padding with rem</i>
+            <div class="box box8">
+                <div class="box-child">
+                    1rem
+                </div>
+            </div>
+        </section>
+        <section>
+            <i>Padding with %</i>
+            <div class="box box9">
+                <div class="box-child">
+                    8%
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
